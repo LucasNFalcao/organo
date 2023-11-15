@@ -1,6 +1,6 @@
-import './Banner.css'
+import './style.css'
 
-function Banner() {
+const Banner = () => {
   return (
     <header className="banner">
       <img src="./assets/banner.png" alt="O banner principal da página do Organo" />
